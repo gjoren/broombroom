@@ -1,0 +1,121 @@
+2023-03-16T04:31:03+00:00 CRITICAL syntax error, unexpected identifier "_e" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:31:05+00:00 CRITICAL syntax error, unexpected identifier "_e" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:31:09+00:00 CRITICAL syntax error, unexpected identifier "_e" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:31:10+00:00 CRITICAL syntax error, unexpected identifier "_e" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:31:16+00:00 CRITICAL syntax error, unexpected identifier "_e" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:31:57+00:00 CRITICAL syntax error, unexpected token "?" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:32:04+00:00 CRITICAL syntax error, unexpected token "?" in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:33:11+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:33:17+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:34:05+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:34:53+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:34:54+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:35:06+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 195
+
+2023-03-16T04:36:34+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:36:35+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:36:37+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:36:51+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:37:35+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:38:52+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:39:36+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:39:55+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:40:00+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:40:04+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:40:19+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:40:34+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:41:37+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:42:35+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:42:49+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:42:51+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:43:00+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T04:43:06+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 194
+
+2023-03-16T07:25:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "create_subjects_hierarchical_taxonomy" not found or invalid function name in D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 D:\xampp\htdocs\carkeys\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\carkeys\wp-settings.php(617): do_action('init')
+#3 D:\xampp\htdocs\carkeys\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\carkeys\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\carkeys\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\carkeys\wp-admin\edit-tags.php(10): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown in D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php on line 308
+
+2023-03-16T07:25:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "create_subjects_hierarchical_taxonomy" not found or invalid function name in D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 D:\xampp\htdocs\carkeys\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\carkeys\wp-settings.php(617): do_action('init')
+#3 D:\xampp\htdocs\carkeys\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\carkeys\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\carkeys\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\carkeys\wp-includes\class-wp-hook.php on line 308
+
+2023-03-16T08:14:41+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:14:43+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:05+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:05+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:05+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:05+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:05+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:06+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:06+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:06+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:06+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:06+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:15:11+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:20:30+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:20:32+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:20:35+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:20:38+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
+2023-03-16T08:20:48+00:00 CRITICAL Cannot redeclare create_custom_taxonomy_model() (previously declared in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php:229) in D:\xampp\htdocs\carkeys\wp-content\themes\astra\functions.php on line 255
+
