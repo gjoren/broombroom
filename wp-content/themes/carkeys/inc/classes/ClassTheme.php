@@ -94,6 +94,17 @@ class ClassTheme
 			'before_title'  => '',
 			'after_title'   => '',
 		) );
+
+		register_sidebar( array(
+			'id'            => 'footer_widget',
+			'name'          => 'Footer widget area',
+			'description'   => '',
+			'class'         => '',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '',
+			'after_title'   => '',
+		) );
 	}
 
 }

@@ -540,6 +540,27 @@ header.site-header {
         overflow: auto;
         opacity: 1 !important; }
 
+footer.site-footer {
+  background-color: #6e6e6e;
+  color: #fff;
+  background-color: #6e6e6e;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 14px; }
+  footer.site-footer .footer-widgets-area {
+    display: flex; }
+  footer.site-footer .menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0px; }
+    footer.site-footer .menu li a {
+      text-decoration: none; }
+  footer.site-footer .copyright-text {
+    font-size: 12px;
+    text-align: center; }
+
 .menu ul,
 .menu-main-container ul {
   display: flex;

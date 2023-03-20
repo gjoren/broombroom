@@ -1,0 +1,30 @@
+footer.site-footer{
+	background-color: #6e6e6e;
+	color: #fff;
+	background-color: #6e6e6e;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 14px;
+
+	.footer-widgets-area{
+		display: flex;
+	}
+
+	.menu{
+		display: flex;
+		gap: 10px;
+		list-style: none;
+		padding: 0px;
+		li{
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+
+	.copyright-text{
+		font-size: 12px;
+		text-align: center;
+	}
+}

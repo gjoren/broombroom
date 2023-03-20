@@ -47,7 +47,7 @@
 <header class="site-header">
     <div class="container header-container">
         <div class="header-item site-logo">
-            <a href="#">
+            <a href="<?php echo get_home_url(); ?>">
                 <img src="<?php echo THEME_DIR_URL ?>/assets/images/logos/logo.png">
             </a>
         </div>
