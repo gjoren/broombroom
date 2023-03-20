@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "title": "CarkeyOnDemand",
+    "settings": {        
+        "color": {
+        	"doutone" : false,
+            "defaultPalette" : false,
+        	"gradient": false,
+        	"custom": false,
+            "palette": []
+        },
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "custom": false,
+                    "background": false,
+                    "text": false
+                }
+            }
+        },
+        "layout": {
+        	"contentSize": "900px",
+        	"wideSize": "900px"
+        }
+    }
+}

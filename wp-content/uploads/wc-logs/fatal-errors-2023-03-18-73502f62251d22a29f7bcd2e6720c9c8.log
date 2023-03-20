@@ -1,0 +1,38 @@
+2023-03-18T16:08:43+00:00 CRITICAL Uncaught Error: Class 'Setup\ThemeSetup' not found in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php:68
+Stack trace:
+#0 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-settings.php(585): include()
+#1 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-config.php(96): require_once('D:\\PROJECTS\\SID...')
+#2 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-load.php(50): require_once('D:\\PROJECTS\\SID...')
+#3 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-blog-header.php(13): require_once('D:\\PROJECTS\\SID...')
+#4 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\index.php(17): require('D:\\PROJECTS\\SID...')
+#5 {main}
+  thrown in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php on line 68
+
+2023-03-18T16:08:43+00:00 CRITICAL Uncaught Error: Class 'Setup\ThemeSetup' not found in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php:68
+Stack trace:
+#0 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-settings.php(585): include()
+#1 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-config.php(96): require_once('D:\\PROJECTS\\SID...')
+#2 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-load.php(50): require_once('D:\\PROJECTS\\SID...')
+#3 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-blog-header.php(13): require_once('D:\\PROJECTS\\SID...')
+#4 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\index.php(17): require('D:\\PROJECTS\\SID...')
+#5 {main}
+  thrown in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php on line 68
+
+2023-03-18T16:09:20+00:00 CRITICAL Uncaught Error: Class 'Setup\ThemeSetup' not found in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php:68
+Stack trace:
+#0 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-settings.php(585): include()
+#1 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-config.php(96): require_once('D:\\PROJECTS\\SID...')
+#2 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-load.php(50): require_once('D:\\PROJECTS\\SID...')
+#3 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-admin\admin-ajax.php(22): require_once('D:\\PROJECTS\\SID...')
+#4 {main}
+  thrown in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php on line 68
+
+2023-03-18T16:09:23+00:00 CRITICAL Uncaught Error: Class 'Setup\ThemeSetup' not found in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php:68
+Stack trace:
+#0 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-settings.php(585): include()
+#1 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-config.php(96): require_once('D:\\PROJECTS\\SID...')
+#2 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-load.php(50): require_once('D:\\PROJECTS\\SID...')
+#3 D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-admin\admin-ajax.php(22): require_once('D:\\PROJECTS\\SID...')
+#4 {main}
+  thrown in D:\PROJECTS\SIDE-PROJECTS\CARKEYS\broombroom\wp-content\themes\carkeys\functions.php on line 68
+

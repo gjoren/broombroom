@@ -1,0 +1,10 @@
+{	
+	"autoload" : {
+		"psr-4" :{
+			"CarkeysTheme\\" : "inc/classes"
+		}
+	},
+	"require": {
+		"htmlburger/carbon-fields": "^3.1"		
+	}
+}
