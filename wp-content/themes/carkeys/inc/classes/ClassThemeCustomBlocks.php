@@ -13,6 +13,9 @@ class ClassThemeCustomBlocks
 	public function __construct()
 	{
 		add_action( 'carbon_fields_register_fields', array( $this, 'ThemeCustomBlocks' ) );
+
+		add_action( 'wp_ajax_ajaxFilterSelection', array( $this, 'FilterSelection' ) );
+		add_action( 'wp_ajax_nopriv_ajaxFilterSelection', array( $this, 'FilterSelection' ) );
 	}
 
 	/**
@@ -61,7 +64,7 @@ class ClassThemeCustomBlocks
 		$title = isset( $blockParam['title'] ) && $blockParam['title'] ? $blockParam['title'] : __( 'SELECT YOUR VEHICLE', 'carkeys' );
 
 		ob_start();
-			echo '<div class="select-input">';
+			echo '<div class="select-input" data-filter-for="car_makes">';
 				wp_dropdown_categories(
 					array(
 						'taxonomy'=> 'car_years', 
@@ -76,7 +79,7 @@ class ClassThemeCustomBlocks
 		$htmlRaw .= ob_get_clean();
 
 		ob_start();
-			echo '<div class="select-input">';
+			echo '<div class="select-input" data-filter-for="car_models">';
 				wp_dropdown_categories(
 					array(
 						'taxonomy'=> 'car_makes', 
@@ -103,6 +106,10 @@ class ClassThemeCustomBlocks
 				)
 			);
 			echo '</div>';
+		$htmlRaw .= ob_get_clean();
+
+		ob_start();
+			echo '<div class="select-input"><button>'.__('Go', 'carkeys').'</button></div>';
 		$htmlRaw .= ob_get_clean();
 
 		$htmlRaw = '<form id="filter-form" class="filter-form">'.$htmlRaw.'</form>';
@@ -137,5 +144,18 @@ class ClassThemeCustomBlocks
 
 
 		echo $html;
+	}
+
+	/*
+	* Ajax callback function for ajaxFilterSelection
+	*/
+
+	public function FilterSelection()
+	{
+		$request = $_REQUEST;
+
+		print_r( $request );
+
+		wp_die();
 	}
 }

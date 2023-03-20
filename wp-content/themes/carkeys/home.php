@@ -1,36 +1,19 @@
 <?php
     get_header();
-    $term = get_queried_object();   
-    if( $term && isset( $term->taxonomy ) && $term->taxonomy == 'category' ){
-
-        $articles = get_posts( array('posts_per_page' => -1,
-                                    'tax_query'      => array(
-                                                array(
-                                                    'taxonomy'  => 'category',
-                                                    'field'     => 'slug',
-                                                    'terms'     => sanitize_title( $term->slug )
-                                                )
-                                            )
-                                    )
-                            );
-    }else{
-        $articles = get_posts( array( 'posts_per_page' => -1 ) );
-    }
+    global $post;
 ?>
-    <main id="page-content" class="posts-archive">
-        <div class="wrapper-posts-archive container mx-auto">
-            <?php if ( have_posts() ): ?>
-                <?php
-                $ctr = 1;
-                foreach( $articles as $akey => $post ):
-                    get_template_part( 'templates/partials/content', 'summary', array( 'post' => $post, 'classes' => 'img-card' ) );
-                    if( $ctr == 6 ){
-                        do_action('most_read_articles', __( 'AM MEISTEN GELESEN', 'spirah' ).':');
-                    }
-                    $ctr++;
-                endforeach;
-                ?>
-            <?php endif; ?>
-        </div>
+    <main id="page-content">
+        <?php if ( have_posts() ): ?>
+            <?php while ( have_posts() ): the_post(); ?>
+                <div class="page-wrapper<?php echo is_shop() ? ' container shop-inner' : '';?><?php echo is_cart() ? ' container cart-container' : '';?>">
+                    <?php if( $post->ID == get_option('woocommerce_myaccount_page_id') ): do_action('account_breadcrumbs'); endif;?>
+                    <?php if( !is_shop() && !is_front_page() ):?>
+                        <h1><?php the_title() ?></h1>
+                    <?php endif;?>
+                    <?php the_content(); ?>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </main>
-<?php get_footer();
+<?php
+    get_footer();

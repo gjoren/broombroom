@@ -622,7 +622,19 @@ footer.site-footer {
     flex-basis: calc( 100% / 3 );
     position: relative; }
     .filter-form .select-input:last-child {
-      margin-right: 20px; }
+      margin-right: 20px;
+      max-width: 15%; }
+      .filter-form .select-input:last-child button {
+        background-color: #6f6f6f;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        height: 100%;
+        width: 100%;
+        padding: 19px;
+        box-shadow: none;
+        font-size: 16px; }
     .filter-form .select-input select {
       display: none; }
     .filter-form .select-input .dropdown-label {

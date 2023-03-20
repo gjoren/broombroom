@@ -15,6 +15,8 @@ var themeJs = {
 
 			// click trigger for dropdowns
 			$(document).on('click', '.dropdown-label', themeJs.triggerSelectLiDropdown );
+			$(document).on('click', '.select-dropdown ul li', themeJs.triggerSelect );
+			$(document).on('change', '.select-input select', themeJs.filterSelect );
 		}
 	},
 	selectToLi : function( thisSelect ){ // covert select to li
@@ -42,5 +44,37 @@ var themeJs = {
 		}else{
 			ddown_container.addClass('dropped');
 		}
+
+		$('.dropdown-label').not(this).closest('.select-input').removeClass('dropped');
+	},
+	triggerSelect: function(e){
+		var trigger = $(this),
+			triggerCont = trigger.closest('.select-input'),
+			selectTarget = triggerCont.find('select'),
+			triggerIndex = trigger.index(),
+			seletVal = null;
+		selectTarget.find('option').eq( triggerIndex ).attr('selected', true );
+		selectTarget.trigger('change');
+		trigger.closest('.select-input').find('.dropdown-label' ).text( trigger.text() );
+		trigger.closest('.select-input').removeClass('dropped');
+	},
+	filterSelect: function(e){
+		var term_id = $(this).val(),
+			filter_for = $(this).closest('.select-input').data('filter-for');
+		$.ajax({
+		    url:carkeys.ajaxurl,
+		    method : 'POST',
+		    dataType : 'json',
+		    data:{
+		        'action' : 'ajaxFilterSelection',
+		        'term_id' : term_id,
+		        'filter_for': filter_for
+		    },
+		    beforeSend: function() {
+		        
+		    },
+		    success: function( response ){		                         
+		    }
+		});
 	}
 }

@@ -105,6 +105,19 @@ html{
 		position: relative;	
 		&:last-child{
 			margin-right: 20px;
+			max-width: 15%;
+			button{
+				background-color: #6f6f6f;
+				border: none;
+				cursor: pointer;
+				color: #fff;
+				font-weight: 500;
+				height: 100%;
+				width: 100%;
+				padding: 19px;
+				box-shadow: none;
+				font-size: 16px;
+			}
 		}	
 		select{
 			display: none;
